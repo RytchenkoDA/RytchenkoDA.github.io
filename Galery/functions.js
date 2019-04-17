@@ -10,10 +10,24 @@
   
   //preload images
   var imgSources = [
-  'images/img-1-lg.jpg',
-  'images/img-2-lg.jpg',
-  'images/img-3-lg.jpg',
-  'images/img-4-lg.jpg'
+    "imgFolder/scheme/Схема 1.jpg",
+    "imgFolder/scheme/Схема 2.jpg",
+    "imgFolder/scheme/Схема 3.jpg",
+     "imgFolder/scheme/Схема 4.jpg",
+    "imgFolder/scheme/Схема 5.jpg",
+     "imgFolder/scheme/Схема 6.jpg",
+    "imgFolder/scheme/Схема 7.jpg",
+    "imgFolder/scheme/Схема 8.jpg",
+     "imgFolder/scheme/Схема 9.jpg",
+    "imgFolder/scheme/Схема 10.jpg" ,                                        
+    "imgFolder/scheme/Схема 11.jpg",
+     "imgFolder/scheme/Схема 12.jpg",
+   "imgFolder/scheme/Схема 13.jpg",
+   "imgFolder/scheme/Схема 14.jpg",
+     "imgFolder/scheme/Схема 15.jpg",
+     "imgFolder/scheme/Схема 16.jpg",
+    "imgFolder/scheme/Схема 17.jpg"
+   
   ];
 
   var imgs = [];
