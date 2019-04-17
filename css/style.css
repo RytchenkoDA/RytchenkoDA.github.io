@@ -61,6 +61,19 @@ nav>ul>li>a{
 nav>ul>li>a:hover{
     border-bottom: 2px solid orange;
 }
+.languages{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    
+}
+.languages a{
+    font-weight: normal;
+    color: white;
+    margin-right: 20px;
+}
 
 .header-title{
     font-size: 46px;
