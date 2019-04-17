@@ -61,6 +61,7 @@ nav>ul>li>a{
 nav>ul>li>a:hover{
     border-bottom: 2px solid orange;
 }
+
 .header-title{
     font-size: 46px;
     margin-bottom: 30px;
@@ -74,7 +75,11 @@ nav>ul>li>a:hover{
     bottom: 50px;
 
 }
-.scroll-arrow:hover{
+.scroll-arrow a {
+    color: white;
+    transition: 1s; 
+}
+.scroll-arrow a:hover{
     color: orange;
 }
 /*=======================================//HEADER//===========================================*/
@@ -90,14 +95,12 @@ article{
     padding: 1%;
     justify-content: center;
     flex-direction: column;
-
-}
-.art1,.art2,.art3{
     background: url("../imgFolder/texture1.jpg");
-    background-size: cover
-
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
+
 /*.art1,.art2{
     justify-content: center;
     flex-direction: column;
@@ -185,16 +188,18 @@ span{
     margin-left: 3%;
     margin-top: 35px;
     max-width: 700px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.9);
+    padding:1%;
 
 /*  border-bottom: 2px solid black;
     border-top: 2px solid black;*/
 }
 .article_text{
+    padding:1%;
     margin-left: 3%;
     margin-top: -15px;
     max-width: 700px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.9);
 
 /*  border-bottom: 2px solid black;
     border-top: 2px solid black;*/
@@ -224,8 +229,13 @@ p{
     line-height: 1.5;
     margin-top: 15px;
 }
-.article_text>p>a:visited{
+
+.article_text_main>p>a:visited{
     color: blue;
+}
+.article_text_main>p>a:hover{
+    color: orange;
+    text-decoration: underline orange;
 }
 /*---------------------------------------//MAIN ARTICLE//-------------------------------*/
 
