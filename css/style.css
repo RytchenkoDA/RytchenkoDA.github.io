@@ -82,6 +82,9 @@ nav>ul>li>a:hover{
 .scroll-arrow a:hover{
     color: orange;
 }
+.scroll-arrow a:visited{
+    color:white;
+}
 /*=======================================//HEADER//===========================================*/
 
 
